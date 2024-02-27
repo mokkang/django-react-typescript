@@ -7,7 +7,7 @@ name: Policy Scan with Veracode Auto-Packager
 on: push
 jobs:
   run-veracode-package:
-    runs-on: maven-latest 
+    runs-on: ubuntu-latest 
     container: 
       image: veracode/api-signing:latest
     steps:
